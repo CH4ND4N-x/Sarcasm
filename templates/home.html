@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+</head>
+<body>
+	<center>
+	<header>
+		<div class="container">
+			<h2>NLP with Flask<h2>
+			<h2>Sarcasm Detector</h2>
+			<h4><b>Note: Real sarcasm can never be detected by mechine
+			reaults may vary.</h4></b>
+		</div>
+	</header>
+	<br>
+	<div class="ml-container">
+		<form action="{{ url_for('predict')}}" method="POST">
+			<p>Enter Text Here</p>
+			<!-- <input type="text" name="comment"/> -->
+			<textarea name="message" rows="10" cols="50"></textarea>
+			<br/>
+			<input type="submit" class="btn-info" value="predict">
+		</form>	
+	</div>
+	</center>
+	
+	
+
+</body>
+</html>

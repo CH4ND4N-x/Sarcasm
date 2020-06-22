@@ -1,0 +1,9 @@
+THIS IS A SIMPLE SARCASM DETECTION ML PROGRAM
+
+step1: Run refine_data.py first
+"""it may take some time,and yo may have to change the path the files which are present in folder data"""
+
+step2: Run APP.py 
+
+Developed by CHANDAN KUMAR JANGID and PIYUSH SHARMA .
+  

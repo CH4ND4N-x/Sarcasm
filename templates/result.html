@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+</head>
+<body>
+	<center>
+    	<p style='Color:blue'><b>Results for Comment</b></p>
+    	<div class="results">
+        	{% if prediction == 1%}
+        	<h2 >SARCASM=1</h2>
+        	{% elif prediction == 0%}
+        	<h2>Sarcasm=0</h2>
+        	{% endif %}
+    	</div>
+	</center>
+</body>
+</html>
