@@ -1,7 +1,9 @@
 THIS IS A SIMPLE SARCASM DETECTION ML PROGRAM
 
 step1: Run refine_data.py first
-"""it may take some time,and yo may have to change the path the files which are present in folder data"""
+"""it may take some time,and you may have to change the path the files which are present in folder data"
+ But I have done this step already and added the file to the code .
+So you can skip this step and directly go to step 2 
 
 step2: Run APP.py 
 
